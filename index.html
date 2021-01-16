@@ -2,13 +2,41 @@
 <html lang="en">
 
 </head>
-
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 <body>
   <meta charset="UTF-8">   
-   <h1>Welcome to Kellogg Bakery</h1>
-      <p1>Kellogg Bakery has been serving the Kellogg community since 2021</p1>
-      <div><img src="cake.png"></div>
-    <ul>
-      <li><a href=about.html>About</a></li>
-      <li><a href=locations.html>Locations</a></li>
-    </ul>
+   <h1 class="font-bold text-pink-500 text-4xl text-center p-6 border-2 rounded-md m-4"> 
+       Welcome to Kellogg Bakery</h1>
+    <p1 class="text-lg italic text-center p-12 mx-80">Kellogg Bakery has been serving the Kellogg community since 2021</p1>
+
+<ul class="font-bold mt-4 text-white bg-pink-500 rounded px-4 py-2">
+    <li><a href=about.html>About</a></li>
+    <li><a href=locations.html>Locations</a></li>
+</ul>
+
+    <div class="flex flex-col row">
+        <div class="column my-10 mx-80">
+          <img src="strawberry cake.png" style="width:100%">
+        </div>
+        <div class="column my-10 mx-80">
+          <img src="chocolate cake.png" style="width:100%">
+        </div>
+        <div class="column my-10 mx-80">
+          <img src="rainbow-cake.png" style="width:100%">
+        </div>
+      </div>
+
+<p1 class="text-lg italic ">Let us know if you have any questions!</p1>
+<div>
+    <form>
+        <label class="block mt-4 font-bold px-4 py-2" for="name">What is your question?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-pink-500
+        focus:border-pink-500 px-4 py-2" type="text" id="question" name="question">
+      
+        <label class="block mt-4 font-bold px-4 py-2" for="email">What is your email?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-pink-500
+        focus:border-pink-500 px-6 py-2" type="text" id="email" name="email">
+      
+        <button class="block mt-4 text-white bg-pink-500 rounded px-4 py-2">Submit form!</button>
+      </form>
+</div>
