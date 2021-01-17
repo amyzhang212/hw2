@@ -1,2 +1,2 @@
 # hw2
-This project is aimed to create a website for Kellogg's first bakery store
+https://reverent-curie-4bc421.netlify.app
