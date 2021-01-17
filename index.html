@@ -7,28 +7,23 @@
   <meta charset="UTF-8">   
    <h1 class="font-bold text-pink-500 text-4xl text-center p-6 border-2 rounded-md m-4"> 
        Welcome to Kellogg Bakery</h1>
-    <p1 class="text-lg italic text-center p-12 mx-80">Kellogg Bakery has been serving the Kellogg community since 2021</p1>
+    <p1 class="md:flex justify-center text-lg italic text-center mx-80">Kellogg Bakery has been serving the Kellogg community since 2021</p1>
 
-<ul class="font-bold mt-4 text-white bg-pink-500 rounded px-4 py-2">
+<ul class="md:flex justify-evenly font-bold mt-4 text-white bg-pink-500 rounded px-4 py-2">
     <li><a href=about.html>About</a></li>
     <li><a href=locations.html>Locations</a></li>
 </ul>
 
-    <div class="flex flex-col row">
-        <div class="column my-10 mx-80">
-          <img src="strawberry cake.png" style="width:100%">
-        </div>
-        <div class="column my-10 mx-80">
-          <img src="chocolate cake.png" style="width:100%">
-        </div>
-        <div class="column my-10 mx-80">
-          <img src="rainbow-cake.png" style="width:100%">
+    <div class="md:flex pb-8">
+          <div class="sm:w1-3 p-4 m-4"><img src="strawberry cake.png"></div>
+          <div class="sm:w1-3 p-4 m-4"><img src="vanilla-cake.png"></div>
+          <div class="sm:w1-3 p-4 m-4"><img src="rainbow-cake.png"></div>
         </div>
       </div>
 
-<p1 class="text-lg italic ">Let us know if you have any questions!</p1>
+<p1 class="flex justify-center text-lg italic m-4 ">Let us know if you have any questions!</p1>
 <div>
-    <form>
+    <form class="md: flex justify-evenly m-4 p-10">
         <label class="block mt-4 font-bold px-4 py-2" for="name">What is your question?</label>
         <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-pink-500
         focus:border-pink-500 px-4 py-2" type="text" id="question" name="question">
