@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 <body>
   <meta charset="UTF-8">   
 <h1 class="font-bold text-pink-500 text-4xl text-center p-6 border-2 rounded-md m-4"> 
     Welcome to Kellogg Bakery</h1>
 
-<p1 class="md:flex justify-center text-lg italic text-center mx-80">We are located across all Kellogg campuses in the U.S</p1>
+<p1 class="flex justify-center text-lg italic m-4">We are located across all Kellogg campuses in the U.S</p1>
 
 <div><ul class="md:flex justify-evenly font-bold mt-4 text-white bg-pink-500 rounded px-4 py-2">
     <li><a href=index.html>Home</a></li></div>
+
+<div>
+    <table class="md:flex justify-center pb-8 m-6 table-center border-pink-500">
+        <thead>
+          <tr class="bg-pink-500">
+            <th>Location</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Evanston</td>
+            <td>2211 Campus Drive, Evanston, IL 60208</td>
+          </tr>
+          <tr class="bg-pink-100 border-gray-400 rounded">
+            <td>Chicago</td>
+            <td>340 E Superior St, Chicago, IL 60611</td>
+          </tr>
+          <tr>
+            <td>Miami</td>
+            <td>95 Merrick Way #100, Coral Gables, FL 33134</td>
+          </tr>
+          <tr class="bg-pink-100">
+            <td>San Francisco</td>
+            <td>44 Montgomery, Montgomery St 18th floor, San Francisco, CA 94104</td>
+          </tr>
+        </tbody>
+      </table>   
+</div>
 
 <div class="md:flex justify-center pb-8 m-6">
           <table>
@@ -37,3 +70,5 @@
                 </tr>
           </table>
       </div>
+</body>
+</html>
